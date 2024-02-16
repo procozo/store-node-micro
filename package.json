@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-creating-restful-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.691.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "express-http-context": "^1.2.3",
+    "http-errors": "^1.7.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.13.22",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.4.8",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "twilio": "^3.44.0",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
